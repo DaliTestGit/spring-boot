@@ -6,7 +6,7 @@
 	<groupId>com.mksiva</groupId>
 	<artifactId>mksboot</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>mksboot</name>
 	<description>Demo project for Spring Boot</description>
@@ -44,12 +44,11 @@
 			<scope>test</scope>
 		</dependency>
 		
-		 <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>provided</scope>
-        </dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
