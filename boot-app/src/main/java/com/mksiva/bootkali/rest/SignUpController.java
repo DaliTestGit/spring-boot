@@ -15,6 +15,11 @@ import com.mksiva.bootkali.model.UserDO;
 public class SignUpController {
 
 	@RequestMapping(value = "", method = RequestMethod.GET)
+	public String home() {
+		return "MyApp Interface API Service is running!";
+	}
+
+	@RequestMapping(value = "/status", method = RequestMethod.GET)
 	public String status() {
 		return "MyApp Interface API Service is running!";
 	}
